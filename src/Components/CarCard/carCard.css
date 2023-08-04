@@ -1,0 +1,233 @@
+.carCard {
+    height: 100vh;
+    background: #FAF9F6;
+}
+
+.carCardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.carCardBoxs {
+    width: 920px;
+    height: 500px;
+    display: flex;
+}
+
+.carCardBox {
+    padding: 46px;
+    flex: 1;
+    height: 500px;
+}
+
+.orangeBg {
+    background: #E28625;
+    border-radius: 10px 0 0 10px;
+}
+
+.darkCyanBg {
+    background: #006971;
+}
+
+.veryDarkCyanBg {
+    background: #004140;
+    border-radius: 0 10px 10px 0;
+}
+
+.orangeText {
+    color: #E28625;
+}
+
+.darkCyanText {
+    color: #006971;
+
+}
+
+.veryDarkCyanText {
+    color: #004140;
+
+}
+
+.carCardBoxTitle {
+    color: #F2F2F2;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.carCardBoxDesc {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 80px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.carCardBoxButton {
+    height: 50px;
+    width: 150px;
+    background: #F2F2F2;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+
+}
+
+.carCardBoxButton:hover {
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+}
+
+@media (max-width:1000px) {
+    .carCard {
+        height: 100vh;
+        background: #FAF9F6;
+    }
+    
+    .carCardWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .carCardBoxs {
+        width: 768px;
+        height: 450px;
+        display: flex;
+    }
+    
+    .carCardBox {
+        padding: 46px 26px;
+        flex: 1;
+        height: 450px;
+    }
+    
+    
+    .carCardBoxTitle {
+        color: #F2F2F2;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+    
+    .carCardBoxDesc {
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 50px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    
+    .carCardBoxButton {
+        height: 50px;
+        width: 150px;
+        background: #F2F2F2;
+        border-radius: 30px;
+        border: none;
+        font-size: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+        cursor: pointer;
+    
+    }
+    
+    .carCardBoxButton:hover {
+        border: 3px solid white;
+        background: transparent;
+        color: white;
+    }
+}
+
+@media (max-width:500px) {
+    .carCard {
+        min-height: 100vh;
+        height: auto;
+        background: unset;
+    }
+    
+    .carCardWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .carCardBoxs {
+        width: 100%;
+        height: 1350px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .carCardBox {
+        padding: 50px;
+        flex: 1;
+        height: 500px;
+    }
+    
+    .orangeBg {
+        background: #E28625;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .darkCyanBg {
+        background: #006971;
+    }
+    
+    .veryDarkCyanBg {
+        background: #004140;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .orangeText {
+        color: #E28625;
+    }
+    
+    .darkCyanText {
+        color: #006971;
+    
+    }
+    
+    .veryDarkCyanText {
+        color: #004140;
+    
+    }
+    
+    .carCardBoxTitle {
+        color: #F2F2F2;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+    
+    .carCardBoxDesc {
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 80px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    
+    .carCardBoxButton {
+        height: 50px;
+        width: 150px;
+        background: #F2F2F2;
+        border-radius: 30px;
+        border: none;
+        font-size: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+        cursor: pointer;
+    
+    }
+    
+    .carCardBoxButton:hover {
+        border: 3px solid white;
+        background: transparent;
+        color: white;
+    }
+}
